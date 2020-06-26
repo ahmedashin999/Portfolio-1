@@ -1,0 +1,280 @@
+@media screen and (max-width: 1100px) and (min-width: 900px) {
+  #nav {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 25px;
+    right: 2px;
+    justify-content: center;
+  }
+
+  #nav .intro-info {
+    justify-content: center;
+  }
+  #nav .intro-info img {
+    width: 50px;
+    height: 50px;
+  }
+  #nav .intro-info h1 {
+    font-size: 20px;
+  }
+  #nav .intro-info p {
+    font-size: 13px;
+  }
+  /* resume */
+  #resume .experience ul li div {
+    width: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  #nav {
+    right: 500px;
+    display: none;
+  }
+  .container {
+    width: 98%;
+    top: 50px;
+    margin: auto;
+    padding-right: 30px;
+    left: 11px;
+  }
+  .heading {
+    display: block;
+    margin-right: 10px;
+  }
+  #portfolio .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  #blog .box {
+    grid-template-columns: 1fr;
+  }
+  #contact .contact-info {
+    grid-template-columns: 1fr;
+  }
+  #testimonial .card {
+    grid-template-columns: 1fr;
+  }
+  #price-comparison .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 899px) and (min-width: 650px) {
+  #service .card {
+    grid-template-columns: 1fr 1fr;
+  }
+  #resume .experience ul li div {
+    width: 300px;
+  }
+
+  #resume .experience .experience-timeline .timeline-1 {
+    position: absolute;
+    top: 12vh;
+    left: 5vh;
+  }
+  #resume .experience .experience-timeline .timeline-2 {
+    position: absolute;
+    top: 51vh;
+    left: 5vh;
+  }
+  #resume .experience .experience-timeline .timeline-3 {
+    position: absolute;
+    top: 89vh;
+    left: 5vh;
+  }
+
+  .btn-gray {
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 649px) {
+  #about .introduction {
+    grid-template-columns: 1fr;
+  }
+  #about .introduction .myself-info ul {
+    grid-template-columns: 1fr;
+  }
+  #about .link {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+  #about .link .btn-blue {
+    margin-top: 20px;
+  }
+  #skill .experience {
+    grid-template-columns: 1fr;
+  }
+  #service .card {
+    grid-template-columns: 1fr;
+  }
+  #resume .experience {
+    grid-template-columns: 1fr 11fr;
+  }
+  #portfolio .card {
+    grid-template-columns: 1fr;
+  }
+  #portfolio ul {
+    flex-direction: column;
+  }
+  #portfolio .link {
+    position: absolute;
+    left: 30%;
+  }
+  #contact .contact-info form div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 649px) and (min-width: 450px) {
+  .lead {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    color: #f4f4f4;
+  }
+  #home h1 {
+    font-size: 25px;
+  }
+  #home p {
+    margin-bottom: 70px;
+  }
+  .container div {
+    margin-bottom: 40px;
+  }
+  #about .introduction {
+    grid-template-columns: 1fr;
+  }
+  #about .introduction .myself-info ul {
+    grid-template-columns: 1fr;
+  }
+  #about .link {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+  #about .link .btn-blue {
+    margin-top: 20px;
+  }
+  #skill .experience {
+    grid-template-columns: 1fr;
+  }
+  #service .card {
+    grid-template-columns: 1fr;
+  }
+  #resume .experience {
+    grid-template-columns: 1fr 11fr;
+  }
+  #resume .experience ul li div {
+    width: 220px;
+  }
+  #resume .experience .experience-timeline .timeline-1 {
+    position: absolute;
+    top: 3vh;
+    left: 12vh;
+  }
+  #resume .experience .experience-timeline .timeline-2 {
+    position: absolute;
+    top: 47vh;
+    left: 12vh;
+  }
+  #resume .experience .experience-timeline .timeline-3 {
+    position: absolute;
+    top: 93vh;
+    left: 12vh;
+  }
+  #portfolio .card {
+    grid-template-columns: 1fr;
+  }
+  #portfolio ul {
+    flex-direction: column;
+  }
+  #portfolio .link {
+    position: absolute;
+    left: 30%;
+  }
+  #contact .contact-info form div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 449px) {
+  #home h1 {
+    font-size: 20px;
+  }
+  #home p {
+    font-size: 15px;
+  }
+
+  .lead {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    color: #f4f4f4;
+  }
+  #home .head-btn {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  #about .btn {
+    display: inline-block;
+
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: all 0.2s ease-in;
+    outline: none;
+  }
+  #resume .experience ul li div {
+    width: 180px;
+  }
+  #resume .experience .experience-timeline .timeline-1 {
+    position: absolute;
+    top: 3vh;
+    left: 12vh;
+  }
+  #resume .experience .experience-timeline .timeline-2 {
+    position: absolute;
+    top: 52vh;
+    left: 12vh;
+  }
+  #resume .experience .experience-timeline .timeline-3 {
+    position: absolute;
+    top: 99vh;
+    left: 12vh;
+  }
+  #portfolio .btn {
+    display: inline-block;
+
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: all 0.2s ease-in;
+    outline: none;
+  }
+  #price-comparison .card .card-body{
+    height:300px;
+     width:200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+}
